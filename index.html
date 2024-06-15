@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <BODY BACKGROUND="https://static.vecteezy.com/system/resources/previews/013/227/616/non_2x/background-graphics-with-light-purple-white-black-gradients-use-designs-for-web-pages-apps-mobile-text-backgrounds-screens-wallpapers-decorations-and-art-design-elements-photo.jpg">
+    <title>Mi Página Web</title>
+    <style>        
+        /* Estilos CSS personalizados aquí */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #0049FF ;
+            color: #FFFFFF ;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 50px;
+        }
+                nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+                nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+                nav ul li a {
+            color: #FF0000 ;
+            text-decoration: none;
+            font-size: 18px;
+        }
+                nav ul li a:hover {
+            text-decoration: underline;
+        }
+	        section {
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #00DCFF;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        
+        h2 {
+            font-size: 20px;
+            margin-top: 0;
+        }
+                p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+                
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        button:hover {
+            background-color: #555;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div id="welcome-popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(255, 255, 255, 0.9); padding: 20px; border: 1px solid #ccc;">
+        <h2>Bienvenido a mi proyecto</h2>
+        <button onclick="hideWelcomePopup()">Cerrar</button>
+    </div>
+    <header>
+	<h1><i>Ingenieria Automotriz
+	<br>
+	Proyecto Final</i></h1>
+    </header>
+<br>
+<br>
+<section>
+	<section>
+        <center><i><tt><h2>||- Informacion Del Alumno(a): -||</h2></tt></i></center><hr>
+	<i><tt><h2>Alumno(a):</h2></tt></i>
+        <u><h4>Pacheco Alvarez Angel Gabriel</h4></u>
+	<hr>
+        <i><tt><h2>Grado y Grupo:</h2></tt></i>
+        <u><h4>4°CPM</h4></u>
+	<hr>
+        <i><tt><h2>Proyecto Final:</h2></tt></i>
+	<u><h4>Ingenieria Automotriz</h4></u>
+	<hr>
+        <i><tt><h2>Escuela:</h2></tt></i>
+	<u><h4>Centro De Estudios Tecnologicos Industrial Y De Servicios N°119</h4></u>
+	<hr>
+	<i><tt><h2>Maestro(a):</h2></tt></i>
+	<u><h4>Petra Rodriguez Astudillo</h4></u>
+	<hr>
+	</section>
+</section>
+<br>
+<br>
+<section>
+        <h2>Checkbox y Radiobuttons</h2>
+    </section>
+	<h4>¿Cuáles son algunos de los principales desafíos que enfrenta la ingeniería automotriz en la transición hacia la electrificación de vehículos y la conducción autónoma?</h4>
+        <label><input type="checkbox"> Respuesta correcta: Desarrollo de baterías y sistemas de carga, integración segura de la conducción autónoma.</label><br>
+        <label><input type="checkbox"> Respuesta incorrecta: Falta de interés público en vehículos eléctricos y conducción autónoma.</label><br>
+        <h4>¿Cómo pueden los ingenieros automotrices utilizar la simulación por computadora y las pruebas en el mundo real para optimizar el diseño y el rendimiento de los vehículos y sistemas de propulsión?</h4>
+        <input type="radio" id="opcion1" name="opcion" value="opcion1">
+        <label for="opcion1">Respuesta correcta: Simulación para predecir comportamiento y pruebas para validación de resultados.</label><br>
+        <input type="radio" id="opcion2" name="opcion" value="opcion2">
+        <label for="opcion2">Respuesta incorrecta: Dependencia exclusiva de pruebas en carretera para todas las optimizaciones.</label><br>
+    <br>
+	<br>
+</body>
+</html>
